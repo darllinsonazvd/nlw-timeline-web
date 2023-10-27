@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import nlwLogo from '../assets/nlw-spacetime-logo.svg'
+import unifacisaLogo from '../assets/unifacisa-logo.png'
 
 export function Hero() {
   return (
     <div className="space-y-5">
-      <Image src={nlwLogo} alt="NLW Spacetime logo" />
+      <Image src={unifacisaLogo} alt="Unifacisa logo" className="w-64" />
 
       <div className="max-w-[420px] space-y-1">
         <h1 className="text-5xl font-bold leading-tight text-gray-50">
