@@ -12,11 +12,16 @@ import { SignIn } from '@/components/SignIn'
 import { Hero } from '@/components/Hero'
 import { Copyright } from '@/components/Copyright'
 
-const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
+const roboto = Roboto({
+  subsets: ['latin'],
+  variable: '--font-roboto',
+  display: 'swap',
+})
 const baiJamjuree = BaiJamjuree({
   subsets: ['latin'],
   weight: '600',
   variable: '--font-bai-jamjuree',
+  display: 'swap',
 })
 
 export const metadata: Metadata = {
